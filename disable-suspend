@@ -1,5 +1,6 @@
 The offending settings can be printed to the console. As superuser:
 
+    su -
     su -s /bin/bash Debian-gdm
     unset XDG_RUNTIME_DIR
 
