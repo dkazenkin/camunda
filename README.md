@@ -1,3 +1,18 @@
+# Документация
+
+* Официальная документация    
+<https://docs.camunda.org/manual/latest/>
+
+* Docker Camunda BPM platform    
+<https://github.com/camunda/docker-camunda-bpm-platform>
+
+* YouTube канал Getting Started with Camunda    
+<https://youtube.com/playlist?list=PLJG25HlmvsOUnCziyJBWzcNh7RM5quTmv>
+
+* Docker документация    
+<https://docs.docker.com/engine/>    
+<https://docs.docker.com/compose/>
+
 # Статьи по Camunda
 
 * Camunda cockpit enterprise и его бесплатная альтернатива excamad     
