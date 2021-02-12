@@ -1,4 +1,6 @@
-The offending settings can be printed to the console. As superuser:
+## Выключение автоматического засыпания ПК в debian
+
+The offending settings can be printed to the console. 
 
     su -
     su -s /bin/bash Debian-gdm
@@ -15,6 +17,6 @@ For quicker reproduction of the problem, reduce the timeout to 2 minutes:
 
 Then reboot and wait 2 minutes.
 
-To turn off suspension, set:
+`To turn off suspension, set:`
 
     dbus-launch gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type nothing
