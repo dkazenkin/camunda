@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: postgres
-    restart: always
+    restart: unless-stopped
     environment:
       - "POSTGRES_USER=camunda"
       - "POSTGRES_PASSWORD=camunda"
@@ -18,7 +18,7 @@ services:
 
   db-admin:
     image: adminer
-    restart: always
+    restart: unless-stopped
     ports:
       - "8081:8080"
     hostname: "db-admin"
@@ -29,7 +29,7 @@ services:
   
   camunda:
     image: camunda/camunda-bpm-platform
-    restart: always
+    restart: unless-stopped
     environment:
       - "DB_DRIVER=org.postgresql.Driver"
       - "DB_URL=jdbc:postgresql://db:5432/process-engine"
