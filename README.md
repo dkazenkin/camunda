@@ -38,3 +38,9 @@
 <http://localhost:8080/engine-rest/process-definition>
 
 * Cockpit не виснет в Google Chrome, в отличие от Firefox
+* Запуск Camunda
+<http://localhost:8080/camunda/app/welcome/default>
+
+* Запуск DB Adminer
+<http://localhost:8081/>
+
